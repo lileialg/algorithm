@@ -4,3 +4,5 @@ for(k=1;k<=n;k++)
       for(j=1;j<=n;j++)
         if(e[i][k]<inf && e[k][j]<inf && e[i][j]>e[i][k]+e[k][j])
             e[i][j]=e[i][k]+e[k][j];
+
+http://bbs.ahalei.com/thread-4554-1-1.html
