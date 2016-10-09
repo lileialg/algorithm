@@ -96,7 +96,7 @@ public class BinTreeTest {
 		}
 		
 		if (node.value == value){
-			throw new Exception("ÒÑ´æÔÚÒì³£");
+			throw new Exception("å·²å­˜åœ¨å¼‚å¸¸");
 		}else{
 			if (node.value > value){
 				if (node.left != null){
